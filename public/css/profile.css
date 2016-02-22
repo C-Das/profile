@@ -1,0 +1,25 @@
+span {
+  font-size:1.5em;
+}
+body {
+  background-color: lightgrey;
+}
+img {
+  height: 350px;
+  width :350px;
+}
+h5{
+  font-family: 'Lobster', cursive;
+}
+p {
+  text-align: justify;
+  font-size: 1.1em;
+  font-family: 'Open Sans', sans-serif;
+}
+#projectNav {
+  text-align: center;
+}
+#myprojects {
+    font-size: 2em;
+    color: darkgrey;
+}
