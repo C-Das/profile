@@ -1,1 +1,1 @@
-<?php require('chinmayprofile.html'); ?>
+<?php require('./views/chinmayprofile.html'); ?>
