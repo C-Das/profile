@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chinmay's Profile</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../public/css/profile.css">
+  <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+          <nav class="navbar navbar-default" id="nav">
+            <div class="container-fluid">
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <div class="col-md-3 col-md-offset-1">
+                <!-- <a href="#aboutme"><span>About Me</span></a> -->
+                </div>
+                <div class="col-md-2 col-md-offset-1">
+                  <!-- <a href="#projects"><span>Projects</span></a> -->
+                </div>
+                <div class="col-md-3 col-md-offset-2">
+                <!-- <a href=""><span>Connect With Me</span></a> -->
+                </div>
+              </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+          </nav>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <img src="../public/images/profilephoto.jpg" alt="My Photo">
+      </div>
+      <div class="col-md-8" name="aboutme">
+        <p>
+          <h3>Hi, I'm Chinmay !!</h3>
+          <h5>IT Engineering Director, Project & Program Management Professional</h5>
+          <h5>2502 Cricket Circle, Edison, NJ, 08820 </h5>
+          <p>
+            Over 17 Years of Software Consulting and Program Management experience.
+            Expertise in Software Lifecycle Management, Change Management, Risk Management and,
+            Resource Management. Expertise in leading IT Transformation and IT Governance programs
+            for various clients. Skilled in Full Stack Web Development (HTML, Javascript, Node.js,bootstrap)
+            and datawarehousing technologies and bigdata (Hadoop).
+            <br>
+            <br>
+            <span><b>Specialties : </b></span>Project and Program Management, Planning, Budgeting & Forecasting, Process Automation, Service Level
+            Management, Drive top line growth and maintain profitability at project and account
+            evel, Drive pre-sales business development activities, Drive Enterprise Datawarehouse
+            and Business Intelligence Roadmap. Drive Big Data initiatives.Extensive experience in developing
+            projects in Agile and Waterfall delivery models.
+            <br>
+            <br>
+            <span><b>Technical Skillset : </b></span> Javascript, jQuery, Node.js, HTML5/CSS3, Bootstrap, Git, Responsive Design,
+             API/JSON,RESTful API, Firebase, MySQL, Ajax, Oracle, Unix, Data Stage
+             Understanding of: Database and Data warehouse Theory, API's, Presentation Skills,
+             Research Methods, System Administration, Quality Assurance Testing, Social Coding Best
+             Practices.
+          </p>
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <nav class="navbar navbar-default" id="projectNav">
+        <div class="container-fluid">
+           <div class="col-md-3 col-md-offset-4" name="projects">
+              <span id="myprojects">My Projects</span>
+           </div>
+        </div><!-- /.container-fluid -->
+      </nav>
+    </div>
+    <div class="row">
+      <div class="panel panel-default">
+        <div class="panel-heading"><span>A Node.js app using Express/Handlebars/Sequelize/Passport/Express Sessions/bcryptjs</span></div>
+        <div class="panel-body">
+          <p>
+          Create a new DB. Create an express / handlebars / node.js / mysql app Make a page that will allow
+          users create a user name and password Make a page that will allow users to login Valiate the name
+          so it's only strings, and password that it has at least 8 characters Setup the model and save
+          password into the database as hash Check the password against the hash before login.
+         </p>
+        </div>
+        <div>
+          <ul>
+            <li>Used sequelize to build the model to connect to Mysql database. Created the databse table
+            using sequelise. Used bulkcreate to insert multiple records into database.Used sequelize validations
+            to validated the form entries.</li>
+            <li>Used express body parser to ready inut from the form</li>
+            <li>Used bcryptjs package to encrypt the password</li>
+            <li>Used express-session, passport and passport-local packages to manage authentication </li>
+            <li>Used passport authenticate to validate success or failed login</li>
+          </ul>
+        </div>
+         <div class="panel-footer">
+              <a href="">Github Link</a>&nbsp &nbsp &nbsp
+              <a href="">Heroku App</a>
+         </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="panel panel-default">
+        <div class="panel-heading"><span>A Node.js app using ORM, MySQL,Node, Express, Handlebars using MVC design pattern.
+          </span></div>
+        <div class="panel-body">
+        <p>
+          Eat-Da-Burger! is a fun app that lets a user input the name of a burger they want to eat.
+          Once submited, the burger is displayed in text on the left side of the page where it's waiting to be devoured.
+          Each burger in the waiting area also has a Devour it! button. Once clicked, the burger will move to the right side of the page.
+          Every burger entered is stored in the database
+        </p>
+        </div>
+        <div>
+          <ul>
+            <li>Used handlebars to generate HTMLs.</li>
+            <li>Used Node.js to connect to SQL database</li>
+            <li>express to handle routings</li>
+          </ul>
+        </div>
+         <div class="panel-footer">
+              <a href="">Github Link</a>&nbsp &nbsp &nbsp
+              <a href="">Heroku App</a>
+         </div>
+      </div>
+    </div>
+    <div class="row">
+        <div class="panel panel-default">
+           <div class="panel-heading"><span>Hangman Game using command line Node app using constructor functions.</span></div>
+           <div class="panel-body">
+           <p>
+              This is the Hangman game using command line node app. It will prompt to take an input and will validate
+              against predefined and randomly generated word from an array of words.
+           </p>
+           </div>
+          <div>
+             <ul>
+               <li>Uses Node prompt package to interact with user.</li>
+               <li>Use of constructor functions and function calls to work with user</li>
+               <li>Use of module.exports to use globally defined functions</li>
+             </ul>
+           </div>
+           <div class="panel-footer">
+               <a href="">Github Link</a>&nbsp &nbsp &nbsp
+               <a href="">Heroku App</a>
+           </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="panel panel-default">
+           <div class="panel-heading">
+              <span>A places to go search page using Firebase, Google, Flicker and Wiki APIs. </span>
+           </div>
+           <div class="panel-body">
+             <p>
+                User can login or register using e-mail address to access the page. For an existing user, application will
+                give an welcome message and take to the serach page. If the e-mail does not existing in the application database,
+                the user will be asked to register using first and last name. User will be able to search location based on country,
+                and will be shown places. He/she can save the search or delete the saved results.
+             </p>
+           </div>
+          <div>
+             <ul>
+               <li>Used firebase to save and manage user registration and save the places for the user.</li>
+               <li>Use of Google place API, Flicker API and wiki API to get details</li>
+               <li>Use of Ajax calls to interact with APIs.</li>
+             </ul>
+           </div>
+           <div class="panel-footer">
+               <a href="">Github Link</a>&nbsp &nbsp &nbsp
+               <a href="">Heroku App</a>
+           </div>
+        </div>
+    </div>
+    <div id="footer">
+        <nav class="navbar navbar-default navbar-fixed-bottom">
+            <div class="jumbotron">
+              <div class="container">
+                <p>
+                  <h3>Thank You for visiting my profile page!! Please connect with me on <a href="https://www.linkedin.com/in/chinmay-das-2625573a" target="_blank">linked in</a> and
+                  <a href="mailto:chinmay98@gmail.com" target="_top">e-mail</a> me to send you my resume.</h3>
+                </p>
+                <!-- <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p> -->
+              </div>
+            </div>
+        </nav>
+    </div>
+  </div>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+</html>
