@@ -16,13 +16,13 @@
               <!-- Collect the nav links, forms, and other content for toggling -->
               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <div class="col-md-3 col-md-offset-1">
-                <a href=""><span>About Me</span></a>
+                <!-- <a href="#aboutme"><span>About Me</span></a> -->
                 </div>
-                <div class="col-md-3 col-md-offset-1">
-                  <a href=""><span>Projects</span></a>
+                <div class="col-md-2 col-md-offset-1">
+                  <!-- <a href="#projects"><span>Projects</span></a> -->
                 </div>
-                <div class="col-md-3 col-md-offset-1">
-                <a href=""><span>Connect With Me</span></a>
+                <div class="col-md-3 col-md-offset-2">
+                <!-- <a href=""><span>Connect With Me</span></a> -->
                 </div>
               </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
@@ -33,10 +33,10 @@
       <div class="col-md-4">
         <img src="../public/images/profilephoto.jpg" alt="My Photo">
       </div>
-      <div class="col-md-8">
+      <div class="col-md-8" name="aboutme">
         <p>
           <h3>Hi, I'm Chinmay !!</h3>
-          <h5>Technical Director, Project & Program Management Professional</h5>
+          <h5>IT Engineering Director, Project & Program Management Professional</h5>
           <h5>2502 Cricket Circle, Edison, NJ, 08820 </h5>
           <p>
             Over 17 Years of Software Consulting and Program Management experience.
@@ -65,7 +65,7 @@
     <div class="row">
       <nav class="navbar navbar-default" id="projectNav">
         <div class="container-fluid">
-           <div class="col-md-3 col-md-offset-4">
+           <div class="col-md-3 col-md-offset-4" name="projects">
               <span id="myprojects">My Projects</span>
            </div>
         </div><!-- /.container-fluid -->
@@ -124,7 +124,7 @@
          </div>
       </div>
     </div>
-      <div class="row">
+    <div class="row">
         <div class="panel panel-default">
            <div class="panel-heading"><span>Hangman Game using command line Node app using constructor functions.</span></div>
            <div class="panel-body">
@@ -146,16 +146,18 @@
            </div>
         </div>
     </div>
-      <div class="row">
+    <div class="row">
         <div class="panel panel-default">
-           <div class="panel-heading"><span>A places to go search page using Firebase, Google, Flicker and Wiki APIs. </span></div>
+           <div class="panel-heading">
+              <span>A places to go search page using Firebase, Google, Flicker and Wiki APIs. </span>
+           </div>
            <div class="panel-body">
-           <p>
-              User can login or register using e-mail address to access the page. For an existing user, application will
-              give an welcome message and take to the serach page. If the e-mail does not existing in the application database,
-              the user will be asked to register using first and last name. User will be able to search location based on country,
-              and will be shown places. He/she can save the search or delete the saved results.
-           </p>
+             <p>
+                User can login or register using e-mail address to access the page. For an existing user, application will
+                give an welcome message and take to the serach page. If the e-mail does not existing in the application database,
+                the user will be asked to register using first and last name. User will be able to search location based on country,
+                and will be shown places. He/she can save the search or delete the saved results.
+             </p>
            </div>
           <div>
              <ul>
@@ -169,6 +171,19 @@
                <a href="">Heroku App</a>
            </div>
         </div>
+    </div>
+    <div id="footer">
+        <nav class="navbar navbar-default navbar-fixed-bottom">
+            <div class="jumbotron">
+              <div class="container">
+                <p>
+                  <h3>Thank You for visiting my profile page!! Please connect with me on <a href="https://www.linkedin.com/in/chinmay-das-2625573a" target="_blank">linked in</a> and
+                  <a href="mailto:chinmay98@gmail.com" target="_top">e-mail</a> me to send you my resume.</h3>
+                </p>
+                <!-- <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p> -->
+              </div>
+            </div>
+        </nav>
     </div>
   </div>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>

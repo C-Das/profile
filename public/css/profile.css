@@ -3,12 +3,13 @@ span {
 }
 body {
   background-color: lightgrey;
+  padding-bottom: 120px;
 }
 img {
   height: 350px;
   width :350px;
 }
-h5{
+h3,h5{
   font-family: 'Lobster', cursive;
 }
 p {
@@ -22,4 +23,11 @@ p {
 #myprojects {
     font-size: 2em;
     color: darkgrey;
+}
+#footer {
+  color: brown;
+}
+.jumbotron {
+  margin-top: 0;
+  height: 20px !important;
 }
